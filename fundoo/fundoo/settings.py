@@ -103,10 +103,10 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'smitamysql',
-        'USER': 'smita@smitamysql',
-        'PASSWORD': 'smita@123',
-        'HOST': 'smitamysql.mysql.database.azure.com',
+        'NAME': 'servermysql1',
+        'USER': 'adminUser3@servermysql1',
+        'PASSWORD': 'admin@123',
+        'HOST': 'servermysql1.mysql.database.azure.com',
         'PORT': '3306',
     }
 }
