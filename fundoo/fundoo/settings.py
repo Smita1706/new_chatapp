@@ -104,9 +104,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'chatappmysql',
-        'USER': 'smita@chatappmysql',
+        'USER': 'smita',
         'PASSWORD': 'admin@123',
-        'HOST': 'chatappmysql.mysql.database.azure.com',
+        'HOST': 'database',
         'PORT': '3306',
     }
 }
